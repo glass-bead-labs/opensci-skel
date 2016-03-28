@@ -1,0 +1,11 @@
+# Clinical
+
+report.md|jinja|markdown|easyhtml:
+    - analysis.py|py:
+        - py: { add-new-files: .png }
+
+analysis.py|py:
+    - analysis_support.py:
+        - output: False
+    - raw-data/rts.csv:
+        - output: False

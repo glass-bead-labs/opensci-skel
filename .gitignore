@@ -1,0 +1,15 @@
+# Annoying files we never want
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Dexy's personal directories
+.dexy/
+.trash/
+
+# We want to explicity manage these (no automatic adds)
+dmz/
+output/
+# Trust no-one, especially not me
+raw-data/

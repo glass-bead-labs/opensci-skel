@@ -1,0 +1,27 @@
+# This file may be used to create an environment using:
+# $ conda create --name <env> --file <this file>
+# After that, you need to install dexy manually using:
+# $ pip install dexy
+
+python=2.7
+ipython-notebook
+
+numpy
+pandas
+xlrd
+
+matplotlib
+seaborn
+
+xlrd
+
+# Stuff for Dexy - note some Dexy req's are not available in conda for py2.7
+beautifulsoup4
+pyyaml
+inflection>=0.2
+jinja2
+ply>=3.4
+pygments
+requests
+markdown
+docutils
